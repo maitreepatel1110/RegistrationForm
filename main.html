@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROBOVITICS Club Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">ROBOVITICS Club Registration Form</div>
+    <div class="form-details">
+      <form class="input-fields">
+        <label for="nameInput"
+          >Name <br />
+          <input
+            type="text"
+            placeholder="Enter your name"
+            class="input"
+            id="name"
+          />
+        </label>
+        <br />
+        <label for="regnumberInput"
+          >Registration Number <br />
+          <input
+            type="text"
+            placeholder="Enter your registration number"
+            class="input"
+            id="regnumber"
+          />
+        </label>
+        <br />
+        <label for="dobInput"
+          >Date of Birth <br />
+          <input type="date" class="input" id="dob" />
+        </label>
+        <br />
+        <label for="emailInput"
+          >Email ID <br />
+          <input
+            type="email"
+            placeholder="Enter your email ID"
+            class="input"
+            id="email"
+          />
+        </label>
+        <br />
+        <label for="yearInput"
+          >Year: <input type="radio" class="year" id="year" name="year" />1st
+          year <input type="radio" class="year" id="year" name="year" />2nd year
+        </label>
+        <br />
+        <label for="domainInput"
+          >Domain Selection:
+          <select name="domain" id="domain" class="domain">
+            <option value="Select Domain">Select Domain</option>
+            <option value="Web Development">Web Development</option>
+            <option value="App Development">App Development</option>
+            <option value="AI/ML">AI/ML</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="Electrical domain">Electrical domain</option>
+            <option value="Mechanical domain">Mechanical domain</option>
+            <option value="Management">Management</option>
+          </select> </label
+        ><br />
+        <label for="languageInput"
+          >Languages Known :
+          <input type="checkbox" class="skills" id="skills" python />python
+          <input
+            type="checkbox"
+            class="skills"
+            id="skills"
+            javascript
+          />javascript
+          <input type="checkbox" class="skills" id="skills" C++ />C++
+          <input type="checkbox" class="skills" id="skills" C />C </label
+        ><br /><br />
+        <button type="Register" class="button" id="registerbtn">
+          REGISTER
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
